@@ -1,16 +1,17 @@
 # WebdriverIO はじめの一歩
-WebdriverIOを使ってみるサンプルです。
-mocha, power-assert, ES2015でテストが書けるようにしています。
+WebdriverIOを使ってテストを書く練習です。  
+mocha, power-assert, ES2015でテストが書けるようにします。  
 
 ## 環境
-Windows7
-node v4.4.4
-npm 2.15.1
-IE11
-Chrome53
+- Windows7
+- node v4.4.4
+- npm 2.15.1
+- IE11
+- Chrome53
 
 ## テストの実行方法
 コマンドプロンプトで、プロジェクトルートに移動して実行する。
+
 	npm install
 	npm run selenium-standalone:install
 	start npm run http-server
@@ -33,12 +34,11 @@ Chrome53
 	npm run wdio:config
 
 ### ファイル構成
-index.html    テスト対象の画面
-move.html     index.htmlでボタンを押した時に遷移する画面
-index.spec.js index.htmlのテスト
-move.spec.js  画面遷移のテスト
+	index.html    テスト対象の画面
+	move.html     index.htmlでボタンを押した時に遷移する画面
+	index.spec.js index.htmlのテスト
+	move.spec.js  画面遷移のテスト
 
 ### リファレンス
-browserで使用できる関数
-http://webdriver.io/api.html
+browserで使用できる関数 http://webdriver.io/api.html
 

@@ -1,0 +1,36 @@
+{
+  "name": "webdriverio-first-step",
+  "version": "0.1.0",
+  "author": "piisuke2",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/piisuke2/webdriverio-first-step.git"
+  },
+  "scripts": {
+    "selenium-standalone:install": "selenium-standalone install",
+    "http-server": "http-server",
+    "wdio:config": "wdio config",
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [
+    "webdriverio",
+    "mocha",
+    "power-assert",
+    "es2015",
+    "example"
+  ],
+  "devDependencies": {
+    "babel-plugin-espower": "^2.3.1",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "http-server": "^0.9.0",
+    "mocha": "^3.1.0",
+    "power-assert": "^1.4.1",
+    "selenium-standalone": "^5.7.2",
+    "wdio-mocha-framework": "^0.4.3",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-spec-reporter": "0.0.3",
+    "webdriverio": "^4.2.16"
+  }
+}

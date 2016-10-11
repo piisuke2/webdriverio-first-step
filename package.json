@@ -8,7 +8,6 @@
     "url" : "https://github.com/piisuke2/webdriverio-first-step.git"
   },
   "scripts": {
-    "selenium-standalone:install": "selenium-standalone install",
     "http-server": "http-server",
     "wdio:config": "wdio config",
     "test": "wdio wdio.conf.js"

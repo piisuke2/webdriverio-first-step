@@ -13,7 +13,6 @@ mocha, power-assert, ES2015でテストが書けるようにします。
 コマンドプロンプトで、プロジェクトルートに移動して実行する。
 
 	npm install
-	npm run selenium-standalone:install
 	start npm run http-server
 	npm test
 
